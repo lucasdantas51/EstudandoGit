@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Página Index</title>
+    </head>
+    <body>
+        <div>
+            <h1>Hello word!</h1>
+
+            <button onclick="functionOnClick()">Click Me</button>
+            <script>
+                var i = 0;
+                function functionOnClick() {
+                    document.getElementById('number').innerHTML = i;
+                    i++;
+                }
+            </script>
+
+            <p>Number: <span id="number"></span></p>
+        </div>
+    </body>
+</html>
